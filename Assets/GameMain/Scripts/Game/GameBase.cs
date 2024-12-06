@@ -65,7 +65,7 @@ namespace StarForce
         {
             if (m_MyAircraft != null && m_MyAircraft.IsDead)
             {
-                GameOver = true;
+                //GameOver = true;
                 return;
             }
         }

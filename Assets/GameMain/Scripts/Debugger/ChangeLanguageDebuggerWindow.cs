@@ -58,17 +58,17 @@ namespace StarForce
             {
                 if (GUILayout.Button("Chinese Simplified", GUILayout.Height(30)))
                 {
-                    GameEntry.Localization.Language = Language.ChineseSimplified;
+                    GameEntry.Localization.Language = GameFramework.Localization.Language.ChineseSimplified;
                     SaveLanguage();
                 }
                 if (GUILayout.Button("Chinese Traditional", GUILayout.Height(30)))
                 {
-                    GameEntry.Localization.Language = Language.ChineseTraditional;
+                    GameEntry.Localization.Language = GameFramework.Localization.Language.ChineseTraditional;
                     SaveLanguage();
                 }
                 if (GUILayout.Button("English", GUILayout.Height(30)))
                 {
-                    GameEntry.Localization.Language = Language.English;
+                    GameEntry.Localization.Language = GameFramework.Localization.Language.English;
                     SaveLanguage();
                 }
             }

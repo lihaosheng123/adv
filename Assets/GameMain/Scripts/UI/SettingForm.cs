@@ -47,7 +47,7 @@ namespace StarForce
         [SerializeField]
         private Toggle m_KoreanToggle = null;
 
-        private Language m_SelectedLanguage = Language.Unspecified;
+        private GameFramework.Localization.Language m_SelectedLanguage = GameFramework.Localization.Language.Unspecified;
 
         public void OnMusicMuteChanged(bool isOn)
         {
@@ -89,7 +89,7 @@ namespace StarForce
                 return;
             }
 
-            m_SelectedLanguage = Language.English;
+            m_SelectedLanguage = GameFramework.Localization.Language.English;
             RefreshLanguageTips();
         }
 
@@ -100,7 +100,7 @@ namespace StarForce
                 return;
             }
 
-            m_SelectedLanguage = Language.ChineseSimplified;
+            m_SelectedLanguage = GameFramework.Localization.Language.ChineseSimplified;
             RefreshLanguageTips();
         }
 
@@ -111,7 +111,7 @@ namespace StarForce
                 return;
             }
 
-            m_SelectedLanguage = Language.ChineseTraditional;
+            m_SelectedLanguage = GameFramework.Localization.Language.ChineseTraditional;
             RefreshLanguageTips();
         }
 
@@ -122,7 +122,7 @@ namespace StarForce
                 return;
             }
 
-            m_SelectedLanguage = Language.Korean;
+            m_SelectedLanguage = GameFramework.Localization.Language.Korean;
             RefreshLanguageTips();
         }
 
@@ -161,19 +161,19 @@ namespace StarForce
             m_SelectedLanguage = GameEntry.Localization.Language;
             switch (m_SelectedLanguage)
             {
-                case Language.English:
+                case GameFramework.Localization.Language.English:
                     m_EnglishToggle.isOn = true;
                     break;
 
-                case Language.ChineseSimplified:
+                case GameFramework.Localization.Language.ChineseSimplified:
                     m_ChineseSimplifiedToggle.isOn = true;
                     break;
 
-                case Language.ChineseTraditional:
+                case GameFramework.Localization.Language.ChineseTraditional:
                     m_ChineseTraditionalToggle.isOn = true;
                     break;
 
-                case Language.Korean:
+                case GameFramework.Localization.Language.Korean:
                     m_KoreanToggle.isOn = true;
                     break;
 
