@@ -1,0 +1,2147 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ja' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+F:/adv
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+49411
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: F:/adv
+F:/adv
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [57552]  Target information:
+
+Player connection [57552]  * "[IP] 172.18.4.155 [Port] 0 [Flags] 2 [Guid] 587626688 [EditorId] 587626688 [Version] 1048832 [Id] WindowsEditor(7,45-022-WD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [57552] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [57552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/adv/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003525 seconds.
+- Loaded All Assemblies, in  0.716 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.933 seconds
+Domain Reload Profiling: 1647ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (245ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (934ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (859ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (661ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.563 seconds
+Refreshing native plugins compatible for Editor in 27.55 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.933 seconds
+Domain Reload Profiling: 3491ms
+	BeginReloadAssembly (291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1102ms)
+		LoadAssemblies (679ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (590ms)
+			TypeCache.Refresh (366ms)
+				TypeCache.ScanAssembly (336ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (66ms)
+	FinalizeReload (1933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (280ms)
+			ProcessInitializeOnLoadAttributes (671ms)
+			ProcessInitializeOnLoadMethodAttributes (241ms)
+			AfterProcessingInitializeOnLoad (82ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 211 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6225 unused Assets / (2.1 MB). Loaded Objects now: 6916.
+Memory consumption went from 173.9 MB to 171.9 MB.
+Total: 11.508700 ms (FindLiveObjects: 0.833500 ms CreateObjectMapping: 1.487800 ms MarkObjects: 6.829900 ms  DeleteObjects: 2.355900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 912723.390531 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Bubble/Bubble Template Standard Bark UI.prefab
+  artifactKey: Guid(d5a18ab9ec93e0d4284d6fbae4f557e0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Bubble/Bubble Template Standard Bark UI.prefab using Guid(d5a18ab9ec93e0d4284d6fbae4f557e0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '892a7bdb28c73bedb243ce6a3638b6cb') in 1.4762631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GameMain/Configs/BuildInfo.txt
+  artifactKey: Guid(0f949a7f73d128547b1314a7e471f19f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Configs/BuildInfo.txt using Guid(0f949a7f73d128547b1314a7e471f19f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '142d8a19d042da7ae2bd4a8190554665') in 0.203284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GameMain/Scripts/Procedure/ProcedureVerifyResources.cs
+  artifactKey: Guid(3ce5f594e4bf0564d992c26a44fec7c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/Procedure/ProcedureVerifyResources.cs using Guid(3ce5f594e4bf0564d992c26a44fec7c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0218e0c39bd95de7594d9ed3c68f347') in 0.0774119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameMain/Scripts/Editor/StarForceBuildEventHandler.cs
+  artifactKey: Guid(64311189c3f9ae140b59a31db9831950) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/Editor/StarForceBuildEventHandler.cs using Guid(64311189c3f9ae140b59a31db9831950) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3bd35d732770b3ff0a2c7a329fbdc8c') in 0.2306579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameMain/Materials/part_jet_core_mat.mat
+  artifactKey: Guid(c58c9afddbd36d14d837fa218d772996) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Materials/part_jet_core_mat.mat using Guid(c58c9afddbd36d14d837fa218d772996) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9c562ff66585b53da79fa4b5a687b74') in 0.1247024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset
+  artifactKey: Guid(8f419ac218fa12c4aacb873b6d2946b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset using Guid(8f419ac218fa12c4aacb873b6d2946b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c1f4da447d0d0bbcbd987ca94033c0b') in 0.1083981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameMain/Entities/DefaultWeapon.prefab
+  artifactKey: Guid(abd1565e9e268f04cac3631d022b4ace) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Entities/DefaultWeapon.prefab using Guid(abd1565e9e268f04cac3631d022b4ace) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cae6aa8a592733ee242c42e3383cec0') in 0.0547292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GameMain/DataTables/Entity.txt
+  artifactKey: Guid(cfe53cf384344bd47a8680f8c5f97a7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/DataTables/Entity.txt using Guid(cfe53cf384344bd47a8680f8c5f97a7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8edb4632db70c71cf3becfbb5ec3fd3') in 0.1532284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/SMS/SMS Dialogue UI.prefab
+  artifactKey: Guid(110a7148858b6f74c87ceac031c8eaba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/SMS/SMS Dialogue UI.prefab using Guid(110a7148858b6f74c87ceac031c8eaba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '347fb3a82a85ccad2c027bf5d803e6fc') in 0.2404681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GameMain/DataTables/UIForm.txt
+  artifactKey: Guid(352da872791696c48af3b21132e3e3c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/DataTables/UIForm.txt using Guid(352da872791696c48af3b21132e3e3c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef6f68010effc0119053d49b89bfae16') in 0.1286589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GameMain/DataTables/Music.txt
+  artifactKey: Guid(315e8ed2db27c254cb3366ff0793cd90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/DataTables/Music.txt using Guid(315e8ed2db27c254cb3366ff0793cd90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd0f0038ebd1f253df73a1a2d246e93c') in 0.0682395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GameMain/Scripts/DataTable/DRWeapon.cs
+  artifactKey: Guid(9b386151345d3f14ab9b7dc5ed6dd864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/DataTable/DRWeapon.cs using Guid(9b386151345d3f14ab9b7dc5ed6dd864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '978f4008577238696149a2860e903571') in 0.0344046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Computer/Computer Standard Dialogue UI.prefab
+  artifactKey: Guid(576820d27454daf4bb3b31f6c63b04ca) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Computer/Computer Standard Dialogue UI.prefab using Guid(576820d27454daf4bb3b31f6c63b04ca) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3beb16ae5b289c041f63e174dcdb47ec') in 0.1971668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 175
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Documentation.pdf
+  artifactKey: Guid(4930a77dc56531c448077fd4251bc34e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Documentation.pdf using Guid(4930a77dc56531c448077fd4251bc34e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b3fbf4d88c51a5f3ef23b8cf34e20af') in 0.0580599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GameMain/Scripts/UI/UIExtension.cs
+  artifactKey: Guid(9cfc2c881ce240349901812c61f4476b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/UI/UIExtension.cs using Guid(9cfc2c881ce240349901812c61f4476b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '013e20e775adb2f818724ba1b39643f2') in 0.0716519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Examples/Crystal.mat
+  artifactKey: Guid(f9ac8f05cb5320d4fba60c4499614b9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Examples/Crystal.mat using Guid(f9ac8f05cb5320d4fba60c4499614b9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d9ea9a9d46973699b62a316cb7f76cf') in 0.092031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameFramework/Scripts/Editor/Inspector/SceneComponentInspector.cs
+  artifactKey: Guid(91ac1b5e58b58c843bcdf37998e18bcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/Inspector/SceneComponentInspector.cs using Guid(91ac1b5e58b58c843bcdf37998e18bcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d7c87806dcedb51675bdead602be79e') in 0.0506077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GameFramework/Scripts/Editor/Inspector/GameFrameworkInspector.cs
+  artifactKey: Guid(b5bb373d9bcd4bd45861670fa5208e05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/Inspector/GameFrameworkInspector.cs using Guid(b5bb373d9bcd4bd45861670fa5208e05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b463eef88cd550dad12d4f4f374c142') in 0.0955769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GameFramework/Scripts/Editor/Inspector/EditorResourceComponentInspector.cs
+  artifactKey: Guid(5e657cda935f6f7409a2486383dd3208) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/Inspector/EditorResourceComponentInspector.cs using Guid(5e657cda935f6f7409a2486383dd3208) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df639269d160ba922d6a8d46cd365967') in 0.0379994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GameMain/Meshes/prop_asteroid_01.FBX
+  artifactKey: Guid(baedbbad82997f445a8cb4da210404e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Meshes/prop_asteroid_01.FBX using Guid(baedbbad82997f445a8cb4da210404e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '713a034e4968e46afba09341bd874cb2') in 0.0984485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GameFramework/Scripts/Editor/Inspector/BaseComponentInspector.cs
+  artifactKey: Guid(55195676d06c1cd418e6f3201eae7176) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/Inspector/BaseComponentInspector.cs using Guid(55195676d06c1cd418e6f3201eae7176) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bac9fe4aa32cca7b03c245a162472193') in 0.0143017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GameMain/DataTables/Sound.bytes
+  artifactKey: Guid(9c3faac13c8ced84a9f3018303b7bb98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/DataTables/Sound.bytes using Guid(9c3faac13c8ced84a9f3018303b7bb98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aab0f6514bdd7247aa92e32d72e785a3') in 0.0755536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GameMain/Scripts/Network/CSPacketBase.cs
+  artifactKey: Guid(2cb68d4d5daf52a4a9305c8d5598419f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/Network/CSPacketBase.cs using Guid(2cb68d4d5daf52a4a9305c8d5598419f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13b5bd02c1309d5b180ddb7e2d52605b') in 0.1164183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.701908 seconds.
+  path: Assets/GameFramework/Scripts/Editor/ResourceCollection/ResourceCollection.cs
+  artifactKey: Guid(d1736b422b0ea4c46bbaf798d320e6f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/ResourceCollection/ResourceCollection.cs using Guid(d1736b422b0ea4c46bbaf798d320e6f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec18b63f3e0dd0d5a3e992317fe0038a') in 0.0154687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Debugger/DebuggerComponent.ScrollableDebuggerWindowBase.cs
+  artifactKey: Guid(1af7b258c93df0341a163adfdd378f8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Debugger/DebuggerComponent.ScrollableDebuggerWindowBase.cs using Guid(1af7b258c93df0341a163adfdd378f8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e19c79c23755ff3ab2a4f642c7539b5') in 0.0484669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Base/BaseComponent.cs
+  artifactKey: Guid(f98acd7d3bd2bf54dadf9644f60e5cb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Base/BaseComponent.cs using Guid(f98acd7d3bd2bf54dadf9644f60e5cb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b01bea02f1377d735e7c2532a767161') in 0.0401966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Debugger/DebuggerComponent.cs
+  artifactKey: Guid(f05eaceeebe870a4595e51f998ed518b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Debugger/DebuggerComponent.cs using Guid(f05eaceeebe870a4595e51f998ed518b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f5f9623abf2f0d8129878bd7f52264e') in 0.0139043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameFramework/Scripts/Editor/ResourceEditor/ResourceEditor.MenuState.cs
+  artifactKey: Guid(32b00a6c44b75494f8576b42717b1f1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/ResourceEditor/ResourceEditor.MenuState.cs using Guid(32b00a6c44b75494f8576b42717b1f1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51ab352702aeae0f58a504c17c02bd40') in 0.0368759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Config/LoadConfigSuccessEventArgs.cs
+  artifactKey: Guid(8edee6cdf050d4f47ac48581f944d4ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Config/LoadConfigSuccessEventArgs.cs using Guid(8edee6cdf050d4f47ac48581f944d4ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15995d0ea95166032822fe777657e824') in 0.0665159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameFramework/Scripts/Editor/ResourceCollection/ResourceCollectionConfigPathAttribute.cs
+  artifactKey: Guid(1eb3245545d87064b814268034cc7af6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/ResourceCollection/ResourceCollectionConfigPathAttribute.cs using Guid(1eb3245545d87064b814268034cc7af6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7c25f5ef9fca5aba338b33828bb6267') in 0.0586064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GameFramework/Scripts/Editor/ResourceEditor/SourceFolder.cs
+  artifactKey: Guid(bcb967b558b5d254fb96db1fc5ed808b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Editor/ResourceEditor/SourceFolder.cs using Guid(bcb967b558b5d254fb96db1fc5ed808b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f02cf046b05302b767f173f7ba5ed720') in 0.0206592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Debugger/DebuggerComponent.RuntimeMemorySummaryWindow.Record.cs
+  artifactKey: Guid(468bbdd114a04de429a6bd97b202c891) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Debugger/DebuggerComponent.RuntimeMemorySummaryWindow.Record.cs using Guid(468bbdd114a04de429a6bd97b202c891) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '430d1a1ec4d54ba082825599c690103c') in 0.042121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.088371 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Localization/LoadDictionaryUpdateEventArgs.cs
+  artifactKey: Guid(067358629da8fc440b396eea65bb6434) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Localization/LoadDictionaryUpdateEventArgs.cs using Guid(067358629da8fc440b396eea65bb6434) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dae2895dfcc8c024e1168720256b1e80') in 0.0587638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Variable/VarDecimal.cs
+  artifactKey: Guid(c8bd5d553ed3aea4485bf78964f09708) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Variable/VarDecimal.cs using Guid(c8bd5d553ed3aea4485bf78964f09708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4b886fa85a72edd80b4ddc6e64932ed') in 0.0789346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Sound/SoundAgentHelperBase.cs
+  artifactKey: Guid(67ec8ad22a10aae41a982dbdd607ceef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Sound/SoundAgentHelperBase.cs using Guid(67ec8ad22a10aae41a982dbdd607ceef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '565b6d6734088a49714e7fa7c7211d60') in 0.0817739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Variable/VarObject.cs
+  artifactKey: Guid(f3b2d458c0eb0244c905a819c9fec4f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Variable/VarObject.cs using Guid(f3b2d458c0eb0244c905a819c9fec4f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1793f214a1212c0778b13b06b9e0e47b') in 0.0662088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Sound/SoundComponent.SoundGroup.cs
+  artifactKey: Guid(50effaea047572b4fae5b3500f1fc109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Sound/SoundComponent.SoundGroup.cs using Guid(50effaea047572b4fae5b3500f1fc109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '111eef5af86ece0b8b465236f6036a2e') in 0.0103947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Resource/BuiltinVersionListSerializer.UpdatableVersionListTryGetValueCallback.cs
+  artifactKey: Guid(c39515b9d8a0b0d4a9045edf9c8c1143) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Resource/BuiltinVersionListSerializer.UpdatableVersionListTryGetValueCallback.cs using Guid(c39515b9d8a0b0d4a9045edf9c8c1143) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f1adf26a27bd7e0a908236cdb996279') in 0.0098773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/UI/UIComponent.UIGroup.cs
+  artifactKey: Guid(f90c498e6b5e013499a1536555584b93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/UI/UIComponent.UIGroup.cs using Guid(f90c498e6b5e013499a1536555584b93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc8656054f9fe3c0f0c19c706d3db9f1') in 0.0098825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Sound/DefaultSoundAgentHelper.cs
+  artifactKey: Guid(3e41f05fd242c0d4fb2a5bd81ccca27c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Sound/DefaultSoundAgentHelper.cs using Guid(3e41f05fd242c0d4fb2a5bd81ccca27c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd964450ef17e8ba9de10728b41e5f296') in 0.0114301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Localization/LocalizationHelperBase.cs
+  artifactKey: Guid(91f20cfd35b8d804ab29f8c3bc25fed8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Localization/LocalizationHelperBase.cs using Guid(91f20cfd35b8d804ab29f8c3bc25fed8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '498e1f067a1e22bcf7e6e3b4de351069') in 0.0097674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Utility/StringExtension.cs
+  artifactKey: Guid(809e5c16ec9bc7440ab85cb3626d9263) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Utility/StringExtension.cs using Guid(809e5c16ec9bc7440ab85cb3626d9263) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddc9383929f5be9855f6ea946d60e1d1') in 0.0282202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/UI/UIFormLogic.cs
+  artifactKey: Guid(0293f872933ead649893db69d7f4e2ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/UI/UIFormLogic.cs using Guid(0293f872933ead649893db69d7f4e2ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '746c0aead23fbbc5ae6f38943484bd85') in 0.0099962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GameMain/Localization/English/Dictionaries/Default.xml
+  artifactKey: Guid(14869ac0d4433f04db1704e39d03412e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Localization/English/Dictionaries/Default.xml using Guid(14869ac0d4433f04db1704e39d03412e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4da4814af13ae8e1c4fa94989a453cbd') in 0.0223941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Utility/UnityExtension.cs
+  artifactKey: Guid(24f918603ece9974690d60aa69d97be2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Utility/UnityExtension.cs using Guid(24f918603ece9974690d60aa69d97be2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed596221ac193695137600448090c7df') in 0.0219777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Sound/PlaySoundUpdateEventArgs.cs
+  artifactKey: Guid(edad8ee73e896ab4cb00c9d37667699d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Sound/PlaySoundUpdateEventArgs.cs using Guid(edad8ee73e896ab4cb00c9d37667699d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8418826941f230ecb6a68319473db89') in 0.0086048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/Network/NetworkComponent.cs
+  artifactKey: Guid(7afc859893311c34a8d8c2c426ab192d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/Network/NetworkComponent.cs using Guid(7afc859893311c34a8d8c2c426ab192d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebabf573bddee02c5c956fd1cd3013cb') in 0.0072797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GameFramework/Scripts/Runtime/ObjectPool/ObjectPoolComponent.cs
+  artifactKey: Guid(1e28a727443c86c40aeb42ff20e0a343) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameFramework/Scripts/Runtime/ObjectPool/ObjectPoolComponent.cs using Guid(1e28a727443c86c40aeb42ff20e0a343) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b80db364bd8991afc6e0305fe6376eb') in 0.0086732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.803630 seconds.
+  path: Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.CharProcessor.cs
+  artifactKey: Guid(37f1181bc8fb29742b06ec3f42f652b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.CharProcessor.cs using Guid(37f1181bc8fb29742b06ec3f42f652b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c54ee67b1df834a52125d0c4b37a318') in 0.0743147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.cs
+  artifactKey: Guid(81b27209918096743b988ea62b39d109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.cs using Guid(81b27209918096743b988ea62b39d109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34eab0473b00e27f22a9128103a1dd78') in 0.0652116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Emerald 2024 Support.unitypackage
+  artifactKey: Guid(7a33f4fb13778c54497fdfb7c88b2d80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Emerald 2024 Support.unitypackage using Guid(7a33f4fb13778c54497fdfb7c88b2d80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd718180f522d0037546764f39a8fe71b') in 0.0369948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Inventory Pro Support.unitypackage
+  artifactKey: Guid(7adde0d8ab9d11c4f8958df473963096) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Inventory Pro Support.unitypackage using Guid(7adde0d8ab9d11c4f8958df473963096) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cd964afc03090eb3e4fb2290697d3c6') in 0.0214725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Third Party Support/Easy Save Support.unitypackage
+  artifactKey: Guid(b606e558541a7b14593ea370c1a31da1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Third Party Support/Easy Save Support.unitypackage using Guid(b606e558541a7b14593ea370c1a31da1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8054889639baac970d6fb132dec8798f') in 0.0338995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.DataProcessor.cs
+  artifactKey: Guid(ccc7c992b5573ae4fafd0d5706bdad48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.DataProcessor.cs using Guid(ccc7c992b5573ae4fafd0d5706bdad48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '473202a66923fecb47f485c35fa4e56f') in 0.0256056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Inventory Engine Support.unitypackage
+  artifactKey: Guid(6556a12f622b9f84a87c93e43a05c57a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Inventory Engine Support.unitypackage using Guid(6556a12f622b9f84a87c93e43a05c57a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d50520d8ca2c80866bf295d65e4ec4c') in 0.0088758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Third Party Support/Rewired Support.unitypackage
+  artifactKey: Guid(43b92591c923d1543bc95a9b89918a6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Third Party Support/Rewired Support.unitypackage using Guid(43b92591c923d1543bc95a9b89918a6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3331d6b411a5286da38906a6c587d9f7') in 0.0072183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GameMain/UI/UISprites/Common/button-outline.png
+  artifactKey: Guid(a8c07bbe04fdaf04b80e27f651a8edd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/UI/UISprites/Common/button-outline.png using Guid(a8c07bbe04fdaf04b80e27f651a8edd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9881a63f3a4c13ba26f1059d2474f155') in 0.1830584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameMain/Scripts/Entity/EntityData/EffectData.cs
+  artifactKey: Guid(e5b93dcbe30421a429c196bda0af31ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Scripts/Entity/EntityData/EffectData.cs using Guid(e5b93dcbe30421a429c196bda0af31ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5812757f335c3940de2b7fae2cb1b9c') in 0.0323391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GameMain/UI/UISprites/Common/round-button-filled.png
+  artifactKey: Guid(e85864330b68dde498dcb6e8711815d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/UI/UISprites/Common/round-button-filled.png using Guid(e85864330b68dde498dcb6e8711815d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0715dcd50a46faa00d4d104d41a4d33b') in 0.0750683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Invector Support.unitypackage
+  artifactKey: Guid(d78d339535406c443be8ab962fe3faed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Invector Support.unitypackage using Guid(d78d339535406c443be8ab962fe3faed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43847ea632adb10ea3ed59688bd528f1') in 0.0745943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/NWT Support.unitypackage
+  artifactKey: Guid(8f7926653749bc042b66acaf162cb653) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/NWT Support.unitypackage using Guid(8f7926653749bc042b66acaf162cb653) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd360c82f93d94d2fa728dc36238c821b') in 0.0521392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Third Party Support/Devion Inventory Support.unitypackage
+  artifactKey: Guid(01db744855bbae74481522d48fd63008) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Third Party Support/Devion Inventory Support.unitypackage using Guid(01db744855bbae74481522d48fd63008) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50b6a77fb1157ed79b4203adc77f4de7') in 0.0287706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366394 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/SALSA Support.unitypackage
+  artifactKey: Guid(5f372c15f48325e4da788631806fbd37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/SALSA Support.unitypackage using Guid(5f372c15f48325e4da788631806fbd37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fd0c0e5a909b34aeeae5df5dfa93503') in 0.0459687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Scripts/UnityEvents/TimedEvent.cs
+  artifactKey: Guid(6a28b27b534f7d54faa28e4808797eed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Scripts/UnityEvents/TimedEvent.cs using Guid(6a28b27b534f7d54faa28e4808797eed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40eb1dbf8fb147d8d6fc585a813b6f34') in 0.0912718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Scripts/Message System/MessageSystemLogger.cs
+  artifactKey: Guid(c07557b3afdd241448890f047ab03f0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Scripts/Message System/MessageSystemLogger.cs using Guid(c07557b3afdd241448890f047ab03f0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45e06bb59506c385e788c27abe60aafe') in 0.01613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/uRPG Support.unitypackage
+  artifactKey: Guid(89146e181822a34479674ffc071163df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/uRPG Support.unitypackage using Guid(89146e181822a34479674ffc071163df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a8a2fbedb6264afa7256708ed028cd1') in 0.0227673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Scripts/UI/LocalizedFonts.cs
+  artifactKey: Guid(b3ec07ce5884fee45b617dd89db8c126) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Scripts/UI/LocalizedFonts.cs using Guid(b3ec07ce5884fee45b617dd89db8c126) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c34258ec91d90cbf1bf8344bc361b4a') in 0.0108891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Sergeant_Graves_2_4.ogg
+  artifactKey: Guid(83bcbc514d032a84bb4958b6f4d64377) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Sergeant_Graves_2_4.ogg using Guid(83bcbc514d032a84bb4958b6f4d64377) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb7b08265c16c3906bc7bef68266da4a') in 0.1272371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_1_5.ogg
+  artifactKey: Guid(3f94d7906b3801c4394415a2be4657c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_1_5.ogg using Guid(3f94d7906b3801c4394415a2be4657c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1154904a66c2be3fea048601a965a87d') in 0.1373015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/Text/StringAsset.cs
+  artifactKey: Guid(e7cd52ba1fd4e0e4c8c2a0a9700a6922) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/Text/StringAsset.cs using Guid(e7cd52ba1fd4e0e4c8c2a0a9700a6922) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bac4022b69d31e0c0e61529487772763') in 0.0329615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/uMMORPG Remastered Support.unitypackage
+  artifactKey: Guid(c3c34eebf26184b4fb5b0a9dfd25567f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/uMMORPG Remastered Support.unitypackage using Guid(c3c34eebf26184b4fb5b0a9dfd25567f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4896f8a762b51214cce8437ea3694b84') in 0.0273671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Scripts/Misc/InstantiatePrefabs.cs
+  artifactKey: Guid(bd0c236e29ff6df47b805e4f4385821f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Scripts/Misc/InstantiatePrefabs.cs using Guid(bd0c236e29ff6df47b805e4f4385821f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c30b05f2954a82ea5fa64146a4263d') in 0.05799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Utility/LocalizedTextTable.cs
+  artifactKey: Guid(3964244b34dbbee498d2831cb9e41a28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Utility/LocalizedTextTable.cs using Guid(3964244b34dbbee498d2831cb9e41a28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6561601276445b116b911849687dadbe') in 0.1113154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_2_8.ogg
+  artifactKey: Guid(13dcea920d0f26b4099b343612128724) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_2_8.ogg using Guid(13dcea920d0f26b4099b343612128724) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e893e6f14cffd7150888dd12bc67a431') in 0.1140886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Crystal/model.dae
+  artifactKey: Guid(a42c00e861acf1f479512bac448986f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Crystal/model.dae using Guid(a42c00e861acf1f479512bac448986f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fd88530e55b680a5bc250b2290294fe') in 0.0454849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Data/Demo Database.asset
+  artifactKey: Guid(c1cc03cd82f6cdb40afbc0575be25564) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Data/Demo Database.asset using Guid(c1cc03cd82f6cdb40afbc0575be25564) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1ea64d1ee959bc8eefac53c48de3c40') in 0.0976541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Scripts/Editor/UI/UIDropdownFieldDrawer.cs
+  artifactKey: Guid(2fa119de2278f404c87b62a30d61f4cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Scripts/Editor/UI/UIDropdownFieldDrawer.cs using Guid(2fa119de2278f404c87b62a30d61f4cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9d2d52da2a51b643c1c11bb051b7f6d') in 0.0152552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Spawning/SpawnedObject.cs
+  artifactKey: Guid(6bf72844540b7744b895a4c85c853e30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Spawning/SpawnedObject.cs using Guid(6bf72844540b7744b895a4c85c853e30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '639ad557fbaacb2ba559651a39a449df') in 0.0252904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Transitions/LoadingScreenProgressBar.cs
+  artifactKey: Guid(3b3e706cb4cd32340a8f9be2994fc668) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Transitions/LoadingScreenProgressBar.cs using Guid(3b3e706cb4cd32340a8f9be2994fc668) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1de5e0b68886f5d4115f66c4e726b3ae') in 0.0125267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/DialogueEditorWindow.cs
+  artifactKey: Guid(3424c03dd9e533544a90f81267b56ab8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/DialogueEditorWindow.cs using Guid(3424c03dd9e533544a90f81267b56ab8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd51a59cd91b5df0c9db10f1f4d8c7f6b') in 0.023123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Savers/MultiEnabledSaver.cs
+  artifactKey: Guid(58aa401304782f144806b4eb3390f7ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Savers/MultiEnabledSaver.cs using Guid(58aa401304782f144806b4eb3390f7ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c048dd0bd0f323e347ab32d9942839a') in 0.0285027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Shaders/LinesColoredBlended.shader
+  artifactKey: Guid(b768165e8c220fc44bd02d8b925b5f9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Shaders/LinesColoredBlended.shader using Guid(b768165e8c220fc44bd02d8b925b5f9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2af4d464702982728e026d0cc5512fb8') in 0.0467658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Diamond/textures/DiamondOutside_roughness.jpg
+  artifactKey: Guid(535b06764e4c87d43aaf01a260a9a32e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Diamond/textures/DiamondOutside_roughness.jpg using Guid(535b06764e4c87d43aaf01a260a9a32e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb7bed0e47ccb2232329e21ed5922d37') in 0.0354999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Manager/DialogueSystemEvents.cs
+  artifactKey: Guid(5a5473918a168c44fa0294bd4d1399f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Manager/DialogueSystemEvents.cs using Guid(5a5473918a168c44fa0294bd4d1399f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c397706edb3a9e62f9361df913fea3cc') in 0.0198618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Diamond/textures/DiamondOutside_normal.png
+  artifactKey: Guid(ea5dc90c03bc0334387614d657275357) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Diamond/textures/DiamondOutside_normal.png using Guid(ea5dc90c03bc0334387614d657275357) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb3ae4fcbe078dcc699779ab14095032') in 0.0418643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Crystal/textures/lambert1_metallic.jpg
+  artifactKey: Guid(e33a605e36566d845910748ff57f7d08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Crystal/textures/lambert1_metallic.jpg using Guid(e33a605e36566d845910748ff57f7d08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51635344bf1da3af2c3321422b16a6bc') in 0.0447332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/Editor/Text/StringAssetMenu.cs
+  artifactKey: Guid(e834c753fe6aad6489e36cfbe916f5df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/Editor/Text/StringAssetMenu.cs using Guid(e834c753fe6aad6489e36cfbe916f5df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32de5392e5af037509fba80a1ec5852c') in 0.0512849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Manager/AssetBundleManager.cs
+  artifactKey: Guid(53389cde3d5f8c144bf2111906eee69d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Manager/AssetBundleManager.cs using Guid(53389cde3d5f8c144bf2111906eee69d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a35c7ab969d5810292eca8a0d7f1fe52') in 0.0699635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Topdown Kit Support.unitypackage
+  artifactKey: Guid(d0b0bdbd9366c9e4fba085f618ca54ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Third Party Support/Topdown Kit Support.unitypackage using Guid(d0b0bdbd9366c9e4fba085f618ca54ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43c357b17cd41dcaac180fc2b4ac476a') in 0.0720077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Scripts/Misc/CoroutineUtility.cs
+  artifactKey: Guid(0108513946cfc9a49b5398f783c2bc17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Scripts/Misc/CoroutineUtility.cs using Guid(0108513946cfc9a49b5398f783c2bc17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb9ff959930291fd2296a13335d820b6') in 0.1642173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/UI/InputDeviceMethods.cs
+  artifactKey: Guid(41cd458118ad9a3479021e3caaca9653) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/UI/InputDeviceMethods.cs using Guid(41cd458118ad9a3479021e3caaca9653) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dea9c1f351ef5a6e128b20f9afc502b') in 0.1001804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Importers/Twine/TwineImporter.cs
+  artifactKey: Guid(8c618b351b0b6b643b72e23bfb72b584) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Importers/Twine/TwineImporter.cs using Guid(8c618b351b0b6b643b72e23bfb72b584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a241429249a08f6f8a82921d2b2b2b11') in 0.1436883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Utility/EditorZoomArea.cs
+  artifactKey: Guid(e397b473eaa67874aa9802232733b28c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Utility/EditorZoomArea.cs using Guid(e397b473eaa67874aa9802232733b28c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4dd2bd2fde71e0d4f7b670156adadb3') in 0.0455774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/FadeEffect.cs
+  artifactKey: Guid(bf7b91960d98f1b44ba6805653d184bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/FadeEffect.cs using Guid(bf7b91960d98f1b44ba6805653d184bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e4f7789ee0939e5ac5015ee9e478cdb') in 0.0159298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Utility/LuaWatchItem.cs
+  artifactKey: Guid(cd3c3e2a31756fd4f9d6a6e7f4e18613) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Utility/LuaWatchItem.cs using Guid(cd3c3e2a31756fd4f9d6a6e7f4e18613) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa35ea1a704e5ea1459c7602d38a1f38') in 0.1679277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Utility/Attributes/DialogueEntryPopupAttribute.cs
+  artifactKey: Guid(7b6cd794417c2854cb08d593d53469cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Utility/Attributes/DialogueEntryPopupAttribute.cs using Guid(7b6cd794417c2854cb08d593d53469cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89056509504e0833b6866a3deba62aec') in 0.0523768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/BarkOnIdle.cs
+  artifactKey: Guid(d24ee66ebd9446342bc603ed07a01d53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/BarkOnIdle.cs using Guid(d24ee66ebd9446342bc603ed07a01d53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '506f5de5715d9f41b573459e62b5674d') in 0.110314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/DialogueEditorWindowTemplateSection.cs
+  artifactKey: Guid(734bfc1d29c027d4b9bd0ef8c0fc5958) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/DialogueEditorWindowTemplateSection.cs using Guid(734bfc1d29c027d4b9bd0ef8c0fc5958) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5dabf17ec6e8b4062a4986542f2e17e') in 0.1402006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Utility/Attributes/QuestStateAttribute.cs
+  artifactKey: Guid(c4d72227ccc3ea44f83885b6e72adedd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Utility/Attributes/QuestStateAttribute.cs using Guid(c4d72227ccc3ea44f83885b6e72adedd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3ae679e3eb2a683972fed9b33d48e4a') in 0.2446013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Triggers/SetActiveOnDialogueEvent.cs
+  artifactKey: Guid(ad8206dbaf03f8c4786b7b786a72241b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Triggers/SetActiveOnDialogueEvent.cs using Guid(ad8206dbaf03f8c4786b7b786a72241b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51c417768dbd93f8ad9f737f0246a768') in 0.1052371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Utility/UnityUIIgnorePauseCodes.cs
+  artifactKey: Guid(03f74548731cbe94aab73effe5ffcabf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Utility/UnityUIIgnorePauseCodes.cs using Guid(03f74548731cbe94aab73effe5ffcabf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e64c08b5c9cdcd6f9258a6f839af4d0') in 0.3388655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/ReconTroop1024x1024_Red.png
+  artifactKey: Guid(029146ce6d2836c448329c460b67d277) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/ReconTroop1024x1024_Red.png using Guid(029146ce6d2836c448329c460b67d277) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc80fbe03f125fa103b98b405183946e') in 0.3498249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Room/LightmapFar-3.exr
+  artifactKey: Guid(c7a1257cb300790429578db2cb9a067c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Room/LightmapFar-3.exr using Guid(c7a1257cb300790429578db2cb9a067c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3392c9a4809275cbdd32d2d6ca644b37') in 0.6384158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/MVC/View/TextlessBarkUI.cs
+  artifactKey: Guid(bb23565486e11104eac22e26078a9018) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/MVC/View/TextlessBarkUI.cs using Guid(bb23565486e11104eac22e26078a9018) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40409a6b00726a8ce3aa450efecf1543') in 0.3611682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Animation/Canvas Group Animator/Focus.anim
+  artifactKey: Guid(853fc541aa274d449b139d19d76a1381) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Animation/Canvas Group Animator/Focus.anim using Guid(853fc541aa274d449b139d19d76a1381) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60de58f2670e31ee8ac4326f126435b4') in 0.1110579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/TerminalDiffuseMap.mat
+  artifactKey: Guid(da530438de201db409b41164a5192f40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/TerminalDiffuseMap.mat using Guid(da530438de201db409b41164a5192f40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f83ed354cd3a2d0f4f3479b2c0c7f25a') in 0.1367948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Utility/ConversationControl.cs
+  artifactKey: Guid(e64e51b1779bb93499ef905559fe62ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Utility/ConversationControl.cs using Guid(e64e51b1779bb93499ef905559fe62ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d1640c779e466e13b8f33e22cb394ed') in 0.0431872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Triggers/StopConversationIfTooFar.cs
+  artifactKey: Guid(8896a90a27f1c434f92b67306392521c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Triggers/StopConversationIfTooFar.cs using Guid(8896a90a27f1c434f92b67306392521c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9627c659a9a081d5a53c55f54c9dc521') in 0.0319868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/InfiltratorPistol.mat
+  artifactKey: Guid(359754cc85114274b96e79e18b55f692) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/InfiltratorPistol.mat using Guid(359754cc85114274b96e79e18b55f692) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '157a6a14626fae36e5c368624a7fcd35') in 0.1520468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Sequencer/SequencerKeywords.cs
+  artifactKey: Guid(f7299b5137805be48a70f9371f3947b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Sequencer/SequencerKeywords.cs using Guid(f7299b5137805be48a70f9371f3947b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '109203c2c82fdc9d77a51adb9e79e57f') in 0.0583216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Serializers/Binary/BinaryDataSerializer.cs
+  artifactKey: Guid(dd7fa48387042da489ff909262cf36aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Serializers/Binary/BinaryDataSerializer.cs using Guid(dd7fa48387042da489ff909262cf36aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5fab0d8b599751a3fdea55e847d5bb3') in 0.0779988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/UnityTextFieldUI.cs
+  artifactKey: Guid(770763badfe5e144fb5374a7dcab2789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/UnityTextFieldUI.cs using Guid(770763badfe5e144fb5374a7dcab2789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25e21956a77aac6f2529e8c64d85b62f') in 0.02863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Utility/AbstractTypewriterEffect.cs
+  artifactKey: Guid(a5377f5dadf18774a96b71a008b3c5db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Utility/AbstractTypewriterEffect.cs using Guid(a5377f5dadf18774a96b71a008b3c5db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf0b7cd5472dad56d67166a53b9eb9a9') in 0.08187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/transparent.png
+  artifactKey: Guid(925987cee7ceb6944bc905eb0e753585) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/transparent.png using Guid(925987cee7ceb6944bc905eb0e753585) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '982d56c936b11c4250a144b1700fe18c') in 0.0937468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Bubble/Bubble.png
+  artifactKey: Guid(b7f09c3867e11ae4cb69aeb93463acd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Bubble/Bubble.png using Guid(b7f09c3867e11ae4cb69aeb93463acd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d6a7481084159f443bbcfe1dbabe90b') in 0.0946451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/GUILabel.cs
+  artifactKey: Guid(06fc588754dcd504e899d843da4bb661) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/GUILabel.cs using Guid(06fc588754dcd504e899d843da4bb661) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88d54c3753bc5ad5fc1f6ce047b78fed') in 0.0269604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Window Background.png
+  artifactKey: Guid(a550b21819b5b564291269f3ba072ef5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Window Background.png using Guid(a550b21819b5b564291269f3ba072ef5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '866c4373b7c19a4406b169001a818099') in 0.1438555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Animator/ReconTroopAnimator.controller
+  artifactKey: Guid(2ddf460389ff5974e8157b027015a158) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Animator/ReconTroopAnimator.controller using Guid(2ddf460389ff5974e8157b027015a158) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd29ca61227a3b4132a682929dd33812') in 0.024068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/LightEndBox.FBX
+  artifactKey: Guid(8390cd2051051ae4e8161210e43de8f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/LightEndBox.FBX using Guid(8390cd2051051ae4e8161210e43de8f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39b567840d6e142cf32dada0d48ed7f3') in 0.1198271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Crystal/textures/lambert1_emissive.jpg
+  artifactKey: Guid(6922af6e6fb272b478d1a687e566dfcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Unity-URP-ScreenSpaceRefraction/Mesh/Crystal/textures/lambert1_emissive.jpg using Guid(6922af6e6fb272b478d1a687e566dfcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e127180992d927a465da068f16729941') in 0.1012495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Savers/DestructibleSaver.cs
+  artifactKey: Guid(03526e258566dc247a4eb8525aeeb667) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Common/Wrappers/Save System/Savers/DestructibleSaver.cs using Guid(03526e258566dc247a4eb8525aeeb667) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e21f89274f49c53abcd73f2001c33928') in 0.0681001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_normal.png
+  artifactKey: Guid(2048119537defaa45a5f7ef29ff78275) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_normal.png using Guid(2048119537defaa45a5f7ef29ff78275) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4a554ac13efccfece6f554a76b88b16') in 0.0355341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_hover.png
+  artifactKey: Guid(690f7358743df3f4595ba0342dd86e8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_hover.png using Guid(690f7358743df3f4595ba0342dd86e8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c134ca1c2c5593150ebdf1fc89e21ce5') in 0.0769792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_normal.png
+  artifactKey: Guid(cfe6b8c2bc51dd84d9c21cd4ff468e13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_normal.png using Guid(cfe6b8c2bc51dd84d9c21cd4ff468e13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86239686183eb34b8baa31055f55cac4') in 0.0395529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Button.psd
+  artifactKey: Guid(9f2cdc43fe2d20e42812c545cb67b99e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Button.psd using Guid(9f2cdc43fe2d20e42812c545cb67b99e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da24c982542c2ce0573f86cadf87fb1e') in 0.1026959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Demo/SimpleController.cs
+  artifactKey: Guid(8a6803d0a521d8b4d8edf887a4d81b55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Demo/SimpleController.cs using Guid(8a6803d0a521d8b4d8edf887a4d81b55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c4da68c591bde63a6839d3e8971e7f') in 0.0493657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Demo Scripts/SimpleController.cs
+  artifactKey: Guid(e1ada539599f49742bb4c877569e0d07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Demo Scripts/SimpleController.cs using Guid(e1ada539599f49742bb4c877569e0d07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e721278b74ecfac4a455b9373782b1ff') in 0.0759044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/Export/VoiceoverScriptExporter.cs
+  artifactKey: Guid(af87b46ea0431ed4484be44247206215) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/Export/VoiceoverScriptExporter.cs using Guid(af87b46ea0431ed4484be44247206215) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '902d9047af06ba72f710e3e1e3d754bb') in 0.2959452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Unique ID Tool/UniqueIDWindow.cs
+  artifactKey: Guid(fa3d0e79d1145384b9af62a56f6588a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Unique ID Tool/UniqueIDWindow.cs using Guid(fa3d0e79d1145384b9af62a56f6588a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e44d250ff8a68ffdd47fd7664b1a9fe') in 0.0112949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Inspectors/Triggers/DialogueTriggerEventDrawer.cs
+  artifactKey: Guid(b2548dbb66de03f4b92e49338e6749f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Inspectors/Triggers/DialogueTriggerEventDrawer.cs using Guid(b2548dbb66de03f4b92e49338e6749f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd5cc11e2b0b778fcea7ddeeeda75e71') in 0.0678864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Inspectors/Triggers/VariablePopupDrawer.cs
+  artifactKey: Guid(69e07fb9b98f69346b63e87a01bfae1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Inspectors/Triggers/VariablePopupDrawer.cs using Guid(69e07fb9b98f69346b63e87a01bfae1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0664667cf6d83dd8106816215221c13e') in 0.039852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Utility/RelationsInspector/RelationsInspectorLink.cs
+  artifactKey: Guid(35188dbbee025fa409a5361d967adbc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Utility/RelationsInspector/RelationsInspectorLink.cs using Guid(35188dbbee025fa409a5361d967adbc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c74fde5208d8b4c3833aab7797a6af03') in 0.0734187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Chunk/BreakStmt.cs
+  artifactKey: Guid(c7ea39dffafe78c4681f388b4ed76f15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Chunk/BreakStmt.cs using Guid(c7ea39dffafe78c4681f388b4ed76f15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '771e9703743978a4e878d412218b0faf') in 0.0089545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel Standard Quest Tracker HUD.prefab
+  artifactKey: Guid(1faea9b6a0e6e5544bcc70c3c4579717) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel Standard Quest Tracker HUD.prefab using Guid(1faea9b6a0e6e5544bcc70c3c4579717) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09695c428d7cdbd151fc4172c56aac5a') in 0.1308871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/PrimaryExpr.cs
+  artifactKey: Guid(08db9eb9d82b8d04abca78f700344857) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/PrimaryExpr.cs using Guid(08db9eb9d82b8d04abca78f700344857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b75c0456f66e4bab2fa3a23652bb522') in 0.0233368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/OperTable.cs
+  artifactKey: Guid(6e2e2dc772a528f428009a24989d70a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/OperTable.cs using Guid(6e2e2dc772a528f428009a24989d70a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c6ba1f8c67e0c3db4de7456c496e058') in 0.0514524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/LuaValue/LuaTable.cs
+  artifactKey: Guid(9d4e737744ccd3f41973778f66c15f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/LuaValue/LuaTable.cs using Guid(9d4e737744ccd3f41973778f66c15f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '606dc8c2e12e84f96f57924f6451a9a7') in 0.0589497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/LuaValue/LuaError.cs
+  artifactKey: Guid(859dbeeb6e8d94b45921541e1b377870) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/LuaValue/LuaError.cs using Guid(859dbeeb6e8d94b45921541e1b377870) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '489d82361015c468892cbe193a3f99d0') in 0.0412528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/MethodCall.cs
+  artifactKey: Guid(6eb15d0873268bd44bd7098317a7cc48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/MethodCall.cs using Guid(6eb15d0873268bd44bd7098317a7cc48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6169c3d6dcadfc0ca82841e914a02196') in 0.0792012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Runic/Runic Standard Dialogue UI.prefab
+  artifactKey: Guid(4b372d6b3e80ce04e99683e81c7de9ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Runic/Runic Standard Dialogue UI.prefab using Guid(4b372d6b3e80ce04e99683e81c7de9ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13a948d797c99bbc47adca71f3ae6788') in 0.0715395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_normal.png
+  artifactKey: Guid(dd04b2931b2d1114aab1360bfee69ea4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_normal.png using Guid(dd04b2931b2d1114aab1360bfee69ea4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c9508c1b73421c2e1cb8649993ba6e3') in 0.0313531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Window.psd
+  artifactKey: Guid(6858abb4516aae344881bf286b3aac33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Window.psd using Guid(6858abb4516aae344881bf286b3aac33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84d04a64d3c473ff543b5ac5e80e9924') in 0.150612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Sequencer/Commands/SequencerCommandLiveCamera.cs
+  artifactKey: Guid(075e0142604b00a408923cf7653bfb13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Sequencer/Commands/SequencerCommandLiveCamera.cs using Guid(075e0142604b00a408923cf7653bfb13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae77ec53dac3a16d88fbfe150f40ab1c') in 0.0483064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/Legacy/AlertTrigger.cs
+  artifactKey: Guid(647d323519ecc004994d54056bd76d98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/Legacy/AlertTrigger.cs using Guid(647d323519ecc004994d54056bd76d98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f9b58ff9dbaaed46656c0d432915193') in 0.0587957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/Legacy/BarkTrigger.cs
+  artifactKey: Guid(66fdf8d5019aaec4bab62570407b9cd1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/Legacy/BarkTrigger.cs using Guid(66fdf8d5019aaec4bab62570407b9cd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76f69683e148917b9db5001f6d0223a8') in 0.0399037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Data/Asset.cs
+  artifactKey: Guid(4e32a6fd8bd3be745b422a9f28e76b53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Data/Asset.cs using Guid(4e32a6fd8bd3be745b422a9f28e76b53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bc412bb71365eeb7ad5f7c38ae8e97d') in 0.033306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Data/Variable.cs
+  artifactKey: Guid(e2b9f7f2afc0cb240a6ab7642f7eebb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Data/Variable.cs using Guid(e2b9f7f2afc0cb240a6ab7642f7eebb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f5a28a2656f3fad208d70f92303517c') in 0.0467991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/View/Dialogue/ITextFieldUI.cs
+  artifactKey: Guid(2c519c8e2e4efcc41a58298c66c6fb6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/View/Dialogue/ITextFieldUI.cs using Guid(2c519c8e2e4efcc41a58298c66c6fb6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a1c75a68e4f2eeee6bc15dd808fc4db') in 0.018899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/wallTanker.png
+  artifactKey: Guid(139efdacaef06c5449a6d4ae9e19833d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/wallTanker.png using Guid(139efdacaef06c5449a6d4ae9e19833d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34303d99c8c395772057ad5227faebae') in 0.0426359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Abstract/Dialogue/AbstractUIControls.cs
+  artifactKey: Guid(f056c4f943b164048bcfafae29a632db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Abstract/Dialogue/AbstractUIControls.cs using Guid(f056c4f943b164048bcfafae29a632db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c6ed842b2f5a6408bb6181f39919e36') in 0.008732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/StandardUIDialogueControls.cs
+  artifactKey: Guid(6608e3751f251cd42a7870794722651f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/StandardUIDialogueControls.cs using Guid(6608e3751f251cd42a7870794722651f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c8bb7217d1471e9af32ab5fa984c88b') in 0.0127192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/StandardUITimer.cs
+  artifactKey: Guid(1863a7228d3845d4b89095a58a4a6f0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/StandardUITimer.cs using Guid(1863a7228d3845d4b89095a58a4a6f0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '616ddfc987f8db0a827ac13b51a8e3da') in 0.0159056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/GUI Controls/GUIControl.cs
+  artifactKey: Guid(8d29af2dfe784e9409b42e0c5d2b3eb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/GUI Controls/GUIControl.cs using Guid(8d29af2dfe784e9409b42e0c5d2b3eb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '019b10b91969a5383e078b0bb46f5e97') in 0.0451472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Selector/StandardUsableUI.cs
+  artifactKey: Guid(34880767705c5c848a73bf8e6f54323e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Selector/StandardUsableUI.cs using Guid(34880767705c5c848a73bf8e6f54323e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '535c1414839c868f9b9f5485d62999a0') in 0.0976885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/StandardUIRoot.cs
+  artifactKey: Guid(759058f4d4805724c86742d3c726fd69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/StandardUIRoot.cs using Guid(759058f4d4805724c86742d3c726fd69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '981776c4f6e3c4d29a2c0c1e30895261') in 0.0221225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/Quest/UnityGUIQuestLogWindow.cs
+  artifactKey: Guid(20ad3bfeef808524889930923269b3c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/Quest/UnityGUIQuestLogWindow.cs using Guid(20ad3bfeef808524889930923269b3c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8b6808eb369e4a4bb45fc3d3243222e') in 0.009918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Abstract/Bark/AbstractBarkUI.cs
+  artifactKey: Guid(b6724eef83fe42348872592ec85c4622) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Abstract/Bark/AbstractBarkUI.cs using Guid(b6724eef83fe42348872592ec85c4622) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43cdb14bf82c1ab233f2ab57492a3d4c') in 0.0144347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Soft Background.png
+  artifactKey: Guid(deb1615199c34134fb7cf05b648c8e5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Soft Background.png using Guid(deb1615199c34134fb7cf05b648c8e5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4828f96829d13f9ac757805e7ff132e') in 0.0520213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Quest/UnityUIQuestGroupTemplate.cs
+  artifactKey: Guid(02612e74f4578364b80e50bec4ea209e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Quest/UnityUIQuestGroupTemplate.cs using Guid(02612e74f4578364b80e50bec4ea209e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c81dbbb214536b9f91537d4b0fc01149') in 0.0178529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Quest/UnityUIQuestTitle.cs
+  artifactKey: Guid(2b45411c74d88a24db4eb4456c42e63b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Quest/UnityUIQuestTitle.cs using Guid(2b45411c74d88a24db4eb4456c42e63b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a7686a44aa497e8b6b5417dfc33a704') in 0.0811186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Standard/Selector/StandardUsableUI.cs
+  artifactKey: Guid(e6e2bf5c3a3a3674cbb0632424a1b0c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Standard/Selector/StandardUsableUI.cs using Guid(e6e2bf5c3a3a3674cbb0632424a1b0c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f268fb1c59429d5b3805b04d0c9cc1ee') in 0.0457239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Standard/Dialogue/BringSubtitlePanelToFrontOnFocus.cs
+  artifactKey: Guid(b3a7b48dd9b9eaa4e99ab90ba3fbdb0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Standard/Dialogue/BringSubtitlePanelToFrontOnFocus.cs using Guid(b3a7b48dd9b9eaa4e99ab90ba3fbdb0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02d54e6b922d9c702ecbed5aeae92b5d') in 0.024599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Standard/Selector/SelectorUseStandardUIElements.cs
+  artifactKey: Guid(bf9481d631e872c45a9f702509a148ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Standard/Selector/SelectorUseStandardUIElements.cs using Guid(bf9481d631e872c45a9f702509a148ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57334f3b2a3756892015ad1764b4454c') in 0.0275379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Inspectors/Triggers/Legacy/LuaOnDialogueEventEditor.cs
+  artifactKey: Guid(9044cbdc6ed2dab458eebb8f556be3ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Inspectors/Triggers/Legacy/LuaOnDialogueEventEditor.cs using Guid(9044cbdc6ed2dab458eebb8f556be3ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cf74d1acbbdf50046cddf262f85cdce') in 0.0381876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Aurora/AuroraConverterWindow.cs
+  artifactKey: Guid(c426c741608b5d1448bafb9516bd58a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Aurora/AuroraConverterWindow.cs using Guid(c426c741608b5d1448bafb9516bd58a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd411350e33f1fe94805aae1d37c6d7c') in 0.0384279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Dialogue/UnityUIDialogueUI.cs
+  artifactKey: Guid(f6fdc33e7e137c54fa00b63521da1e89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Dialogue/UnityUIDialogueUI.cs using Guid(f6fdc33e7e137c54fa00b63521da1e89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcc132f47bb9d3be2a52f7afd95ef2f9') in 0.0212368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Dialogue/UnityUIResponseButton.cs
+  artifactKey: Guid(55238ff1c242cb844a817a14ebba94d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Unity UI/Dialogue/UnityUIResponseButton.cs using Guid(55238ff1c242cb844a817a14ebba94d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c2a0cfea5a29d0253c75cab619ac2b5') in 0.0174612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Parser/Syntax/Term.cs
+  artifactKey: Guid(464419b1fdc25c84d98961da122102ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Parser/Syntax/Term.cs using Guid(464419b1fdc25c84d98961da122102ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '698db60cc1f4313e54512c8cc48aef4d') in 0.0177989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Twine/TwineImportWindowDisabled.cs
+  artifactKey: Guid(daec391ab9660f047a98c6f36580bf86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Twine/TwineImportWindowDisabled.cs using Guid(daec391ab9660f047a98c6f36580bf86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0e381ba53ec9965b235b284770a0fd9') in 0.0296569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Parser/Syntax/Statement.cs
+  artifactKey: Guid(40b6bd87fd0d39d4eba9f445876b6eae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Parser/Syntax/Statement.cs using Guid(40b6bd87fd0d39d4eba9f445876b6eae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9359e60c5ca85870c7178162ce477435') in 0.0178165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Yarn2/Yarn2ImporterWindow.cs
+  artifactKey: Guid(5032cb383609b064482e7a2425344795) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Yarn2/Yarn2ImporterWindow.cs using Guid(5032cb383609b064482e7a2425344795) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9672ca49291d6d32ae31fad43caca5e') in 0.0136715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Yarn2/YarnCommandTextSplitter.cs
+  artifactKey: Guid(0b3c62e03f320ee47b15da5872d479fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Yarn2/YarnCommandTextSplitter.cs using Guid(0b3c62e03f320ee47b15da5872d479fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdd2d9d81cfa278ee2c9f16fca44f7af') in 0.0102182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Importers/Articy/Schemas/Articy 3.1/XmlContentExport_FullProject_3_1.cs
+  artifactKey: Guid(97c4e3f906671074fac8777cae6eabe2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Importers/Articy/Schemas/Articy 3.1/XmlContentExport_FullProject_3_1.cs using Guid(97c4e3f906671074fac8777cae6eabe2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48ea7b1a7ebb1590a311a8ff70339f1d') in 0.0440339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Logic/Shared/ConversationState.cs
+  artifactKey: Guid(4903c73ff7e7a794ea9358824886fc85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Logic/Shared/ConversationState.cs using Guid(4903c73ff7e7a794ea9358824886fc85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5373a06edd599fe45efdd7ea85b29416') in 0.0776176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Parser/Syntax/PrimaryExpr.cs
+  artifactKey: Guid(bb3e5028b4e884541bf67aee37a75a29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Parser/Syntax/PrimaryExpr.cs using Guid(bb3e5028b4e884541bf67aee37a75a29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a0e1e3669339e05bd80b662bf15cbb1') in 0.1276315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Quest/Common/StandardUIToggleTemplate.cs
+  artifactKey: Guid(a642c001a678a9e438e73b9035e9a7e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Quest/Common/StandardUIToggleTemplate.cs using Guid(a642c001a678a9e438e73b9035e9a7e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '882edd95df36563084c907ec376fcedc') in 0.0206459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Quest/Common/StandardUIContainerTemplate.cs
+  artifactKey: Guid(0815f92dfe587504c85e85d3e92cb052) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Quest/Common/StandardUIContainerTemplate.cs using Guid(0815f92dfe587504c85e85d3e92cb052) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93fe37bb0e5b022f05d3c369d23ce4fa') in 0.0132248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Options/Timeline/Playables/Continue/ContinueConversationClip.cs
+  artifactKey: Guid(91aa6df33dd04e94d901e44559ba96ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Options/Timeline/Playables/Continue/ContinueConversationClip.cs using Guid(91aa6df33dd04e94d901e44559ba96ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a9f787a643549f6d4b77d87e1ac7ccb') in 0.0125681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/Panel Numbers/MenuPanelNumber.cs
+  artifactKey: Guid(7e273ea2d0432f44eb4299d327fa7fb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Dialogue/Panel Numbers/MenuPanelNumber.cs using Guid(7e273ea2d0432f44eb4299d327fa7fb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d501e677801d762779f9e8e291d6022') in 0.0123265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Unity UI/Dialogue/Portraits/AnimatedPortrait.cs
+  artifactKey: Guid(7c831828ac4c9ad4eb482b53c6c92b4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Unity UI/Dialogue/Portraits/AnimatedPortrait.cs using Guid(7c831828ac4c9ad4eb482b53c6c92b4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6802e0d4e274f2da834c0edb613cfbe') in 0.1545069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Quest/Common/StandardUIContentTemplate.cs
+  artifactKey: Guid(87ac724f67c2797448e63b17b0da01d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Standard/Quest/Common/StandardUIContentTemplate.cs using Guid(87ac724f67c2797448e63b17b0da01d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc511b887eab238c2b8fcc7de678dc71') in 0.011884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/GUI Controls/Effects/FadeEffect.cs
+  artifactKey: Guid(f9b6a74412411b2429a0cc51e23407a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/GUI Controls/Effects/FadeEffect.cs using Guid(f9b6a74412411b2429a0cc51e23407a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fd9179a5adf23076d5b2b8d54a533fe') in 0.0098344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Options/Timeline/Playables/ShowAlert/ShowAlertBehaviour.cs
+  artifactKey: Guid(b558b7ae1b5bc5f439b56512a90eda56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Options/Timeline/Playables/ShowAlert/ShowAlertBehaviour.cs using Guid(b558b7ae1b5bc5f439b56512a90eda56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79bba85e80df027132717c68ba07b60c') in 0.028135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Articy/Schemas/Articy 4.0/Articy_4_0_EditorTools.cs
+  artifactKey: Guid(5dc424c8d97ef3e44bf7836e56fe9342) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Articy/Schemas/Articy 4.0/Articy_4_0_EditorTools.cs using Guid(5dc424c8d97ef3e44bf7836e56fe9342) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '711d365d5f932514e5a7b31002d05b0d') in 0.0165774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Data/Chat Mapper/ChatMapperProject.cs
+  artifactKey: Guid(129a428cd7a7ff045bf69d784ac1d712) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/MVC/Model/Data/Chat Mapper/ChatMapperProject.cs using Guid(129a428cd7a7ff045bf69d784ac1d712) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87849fe6325102f6734d2a7db091d8a2') in 0.0432414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/Pipe_electricBox_ts_Diff.png
+  artifactKey: Guid(e2e245c7e87f2e34a99c3bbcf5687ede) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/Pipe_electricBox_ts_Diff.png using Guid(e2e245c7e87f2e34a99c3bbcf5687ede) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '641d045569922caf46f8ed716391b93c') in 0.0239398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Utility/TypewriterUtility.cs
+  artifactKey: Guid(fb6bc4f213ce06d469079fecbea3c68c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Utility/TypewriterUtility.cs using Guid(fb6bc4f213ce06d469079fecbea3c68c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '586c01d95f551a4d9dbf9c7b1c108654') in 0.0290786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Articy/Schemas/Articy 2.2/Articy_2_2_EditorTools.cs
+  artifactKey: Guid(d98a8e8484d9ff843ab9c20816c0c6a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Articy/Schemas/Articy 2.2/Articy_2_2_EditorTools.cs using Guid(d98a8e8484d9ff843ab9c20816c0c6a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21d4c476dc93848d6ff28fdf1f9c7c7f') in 0.1160997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Celtx/CeltxConverterWindowDisabled.cs
+  artifactKey: Guid(2c82d175d3c53de4c8411cdb4092cafa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Importers/Celtx/CeltxConverterWindowDisabled.cs using Guid(2c82d175d3c53de4c8411cdb4092cafa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c22d90e4090fc248caa03fd2303d65c0') in 0.0248128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/SlideEffect.cs
+  artifactKey: Guid(981993f01c5b0db4499969008e1531aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/SlideEffect.cs using Guid(981993f01c5b0db4499969008e1531aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c761d0816749bebdfae873adbb50099') in 0.0651801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/VariableArg.cs
+  artifactKey: Guid(a116105e74d290c4e9204cf21045e93f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Lua/Lua Interpreter/Expr/VariableArg.cs using Guid(a116105e74d290c4e9204cf21045e93f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a86ae59a3d85c88d0cc4a67c4baa569') in 0.0135157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Utility/UnityUITypewriterEffect.cs
+  artifactKey: Guid(cf59e9c601bf0354baa2d3daac7d491e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/UI/Utility/UnityUITypewriterEffect.cs using Guid(cf59e9c601bf0354baa2d3daac7d491e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd2cba0bfe93f40b11c9d3a83fd625db') in 0.0185946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/DialogueEditorWindowMain.cs
+  artifactKey: Guid(9f411ae07bb8e1f418e46decc89fddcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Dialogue Editor/DialogueEditorWindowMain.cs using Guid(9f411ae07bb8e1f418e46decc89fddcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '072adda8e6a29a81f166559c17c76e03') in 0.0083382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt_pressed.png
+  artifactKey: Guid(3259cc77a00ca1c429b3638015f4645d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt_pressed.png using Guid(3259cc77a00ca1c429b3638015f4645d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7adc51993647574613868b267a7ff39f') in 0.0836579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Renamer/DialogueSystemAssetRenamerUtility.cs
+  artifactKey: Guid(106616d104c755a49add1df11852cd74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Editor/Tools/Renamer/DialogueSystemAssetRenamerUtility.cs using Guid(106616d104c755a49add1df11852cd74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1338e3d3540d8a9f2a325325b400b4ba') in 0.0217069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/GUIWindow.cs
+  artifactKey: Guid(75b03f00b69c5e144976cb1b7f9800c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Wrappers/Deprecated/Legacy GUI/GUIWindow.cs using Guid(75b03f00b69c5e144976cb1b7f9800c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce3e83434415256d5a5227cefa93770e') in 0.0367377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/OnEvent/DialogueEvent.cs
+  artifactKey: Guid(c469c4da8bad1df4798f149cb7f6cf82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/Triggers/Triggers/OnEvent/DialogueEvent.cs using Guid(c469c4da8bad1df4798f149cb7f6cf82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c97618eee199ab9e3026d6701d1a93f4') in 0.0185605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/GUI Controls/GUIButton.cs
+  artifactKey: Guid(8b5a8ae8cbc9a1a42a9c4e35cbed4790) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/UI/Legacy/GUI Controls/GUIButton.cs using Guid(8b5a8ae8cbc9a1a42a9c4e35cbed4790) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f813e80d4c28de55aa3396c0efbe607') in 0.0248438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Animation/Portrait Animator/Show Color.anim
+  artifactKey: Guid(89b0fb6a3c011594fa94fba42b6a2de3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Animation/Portrait Animator/Show Color.anim using Guid(89b0fb6a3c011594fa94fba42b6a2de3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '760ebc573b89247c4cc344c5dd5193bf') in 0.014463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.537687 seconds.
+  path: Assets/Settings/Fastest_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(49b0b82575916db458516f92d121cc5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Fastest_PipelineAsset_ForwardRenderer.asset using Guid(49b0b82575916db458516f92d121cc5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd905466238d61a415ac25fa6a9058b4a') in 0.0445268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel Standard UI Quest Log Window.prefab
+  artifactKey: Guid(f873a592e0f5eb7469d72cf7162ed7ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel Standard UI Quest Log Window.prefab using Guid(f873a592e0f5eb7469d72cf7162ed7ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e8e748f93fd8d2ece0cef2fe65b8200') in 0.1047144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 301
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/Fast_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(9fc22144366c861408eb6264f19f1ec3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Fast_PipelineAsset_ForwardRenderer.asset using Guid(9fc22144366c861408eb6264f19f1ec3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '175ccf0bd79daf760a09fa771e5f6fd6') in 0.0117379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Focus/adv.prefab
+  artifactKey: Guid(ffee3554f20583547ac2186255867e75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Focus/adv.prefab using Guid(ffee3554f20583547ac2186255867e75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88601a9d468b43ec08a6675e37a1923f') in 0.0323104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/Pipe_electricBox_ts_Diff.mat
+  artifactKey: Guid(7cd67c6425f56844aaf7961878b363e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/Pipe_electricBox_ts_Diff.mat using Guid(7cd67c6425f56844aaf7961878b363e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5d36c26c8dda62ca2c828f69061fde2') in 0.0167869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/LargeDoorway.mat
+  artifactKey: Guid(6a445ffbc6e735340a32da924c9881c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/LargeDoorway.mat using Guid(6a445ffbc6e735340a32da924c9881c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed0232836a04a8ee754873808ebf257d') in 0.0106208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Scenes/DemoScene1Settings.lighting
+  artifactKey: Guid(f36359a5b8932154b8934fd7e70d61d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Scenes/DemoScene1Settings.lighting using Guid(f36359a5b8932154b8934fd7e70d61d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'af1431df60234c6e109d4003825e315e') in 0.1404624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GameMain/UI/UIForms/AboutForm.prefab
+  artifactKey: Guid(3aa539b1e46111d4299a83c73ebe762c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/UI/UIForms/AboutForm.prefab using Guid(3aa539b1e46111d4299a83c73ebe762c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7633ecee59a2ec4853aa0f5bfeb06bf6') in 0.0249387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Settings/Simple_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(a4d1fec16c4cdb246b5bce114842a5b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Simple_PipelineAsset_ForwardRenderer.asset using Guid(a4d1fec16c4cdb246b5bce114842a5b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58144191f5d611df0419013aa3891c35') in 0.017859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Letterbox/Letterbox Template Standard Dialogue UI.prefab
+  artifactKey: Guid(90632d3b48c4c204a8745ed54bc1f708) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Letterbox/Letterbox Template Standard Dialogue UI.prefab using Guid(90632d3b48c4c204a8745ed54bc1f708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bb387b9dedd7f14d42358592c286056') in 0.038715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Circle/Circle Standard Dialogue UI.prefab
+  artifactKey: Guid(adc24357fea057a4884a14c87b85b1cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Circle/Circle Standard Dialogue UI.prefab using Guid(adc24357fea057a4884a14c87b85b1cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ec5171cda89913e939b7ad7e016f81d') in 0.0391224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 241
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/VN/VN Template Standard Dialogue UI.prefab
+  artifactKey: Guid(d1b7749dcc0beaf4f8d455f24cc4f0f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/VN/VN Template Standard Dialogue UI.prefab using Guid(d1b7749dcc0beaf4f8d455f24cc4f0f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55e0d482ab1316069bed3b92890028d2') in 0.0365897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 235
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/Head.mat
+  artifactKey: Guid(67e66cd37fc0b794aa0a01c6e5d9a7cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/Head.mat using Guid(67e66cd37fc0b794aa0a01c6e5d9a7cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '975c26655504c6414d570ba13506fd31') in 0.0104298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Nuke/Nuke Standard Dialogue UI.prefab
+  artifactKey: Guid(3275a4cc1b86c8c4592779f97f1d9fd1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Nuke/Nuke Standard Dialogue UI.prefab using Guid(3275a4cc1b86c8c4592779f97f1d9fd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b7c44eda02c24d2cc37e7701c8ffe3c') in 0.0560902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GameMain/Materials/vehicle_playerShip_glass_mat.mat
+  artifactKey: Guid(f36c72c738c55f741afcd674a0b1245f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Materials/vehicle_playerShip_glass_mat.mat using Guid(f36c72c738c55f741afcd674a0b1245f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56167d19ba4b05d6ca208c8257766bca') in 0.0136629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/WallLamp-16 - Default.mat
+  artifactKey: Guid(11fb2d248febdc846b81524c9ac75a5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/WallLamp-16 - Default.mat using Guid(11fb2d248febdc846b81524c9ac75a5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b7b9fc70e899df94a694b6296883606') in 0.0095059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Old School/Old School Standard Dialogue UI.prefab
+  artifactKey: Guid(48c4026eae2c41d4a8767272f2830356) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Old School/Old School Standard Dialogue UI.prefab using Guid(48c4026eae2c41d4a8767272f2830356) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4a573511e7bcda663c95efb9eeee260') in 0.0388774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 188
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/SceneFaderCanvas.prefab
+  artifactKey: Guid(57901d8399fd6e74fbabbc9956f39557) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/SceneFaderCanvas.prefab using Guid(57901d8399fd6e74fbabbc9956f39557) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b42182d72d1d829b0ee10102f5708262') in 0.0251342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GameMain/Materials/prop_asteroid_02_mat.mat
+  artifactKey: Guid(578af1667322bab45b652b79a40bb4fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Materials/prop_asteroid_02_mat.mat using Guid(578af1667322bab45b652b79a40bb4fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b761c722d955174c73e3c58839633924') in 0.0099047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/Beautiful_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(aa477a88d3110394497e21dbc19a0ac9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Beautiful_PipelineAsset_ForwardRenderer.asset using Guid(aa477a88d3110394497e21dbc19a0ac9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3335a22817e36b83197447cf48d2950') in 0.0144862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Camera Angle Studio/Camera Angle Studio.unity
+  artifactKey: Guid(26dcc50520592f249a8b279f194100ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Camera Angle Studio/Camera Angle Studio.unity using Guid(26dcc50520592f249a8b279f194100ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dca7eba4fed5bada6671a65cd92b18a4') in 0.0140863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GameMain/UI/UIItems/HPBarItem.prefab
+  artifactKey: Guid(96d2e77dd9853514da336717bd5627c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/UI/UIItems/HPBarItem.prefab using Guid(96d2e77dd9853514da336717bd5627c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '421e96761b0808777af40e24a92b012e') in 0.0178826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/Beautiful_PipelineAsset.asset
+  artifactKey: Guid(12305f69573af84408cf32e1b5e3dedb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Beautiful_PipelineAsset.asset using Guid(12305f69573af84408cf32e1b5e3dedb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '792cd547f79120ab109943be7f665788') in 0.0802376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel Standard Quest Tracker HUD.prefab
+  artifactKey: Guid(1faea9b6a0e6e5544bcc70c3c4579717) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel Standard Quest Tracker HUD.prefab using Guid(1faea9b6a0e6e5544bcc70c3c4579717) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c73b309e537310984d168169f0fa0db9') in 0.0179143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/TerminalDiffuseMap.mat
+  artifactKey: Guid(da530438de201db409b41164a5192f40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/TerminalDiffuseMap.mat using Guid(da530438de201db409b41164a5192f40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53afb28bd526f9274b5337c674c3482d') in 0.0150073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/FloorAmaterial.mat
+  artifactKey: Guid(de5031a49559bb442adc46fd99ce8b69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/FloorAmaterial.mat using Guid(de5031a49559bb442adc46fd99ce8b69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1ec021d91b6fd06f906678a59f8e5ae') in 0.0172679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Sergeant Graves.prefab
+  artifactKey: Guid(5d271d9ea0c3c7c408e8785b0221d4ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Sergeant Graves.prefab using Guid(5d271d9ea0c3c7c408e8785b0221d4ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4894c6b9c97582d25eddfa9778330af6') in 0.0711055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 160
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GameMain/UI/UIForms/DialogForm.prefab
+  artifactKey: Guid(04d7dde7615d71b4db1a0c8d67a62e95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/UI/UIForms/DialogForm.prefab using Guid(04d7dde7615d71b4db1a0c8d67a62e95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a36b5f909257e4f8b6e9c91337dd2e0') in 0.0275078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Scenes/DemoScene1.unity
+  artifactKey: Guid(955abf6400389cf4f8e68ac194db83e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Scenes/DemoScene1.unity using Guid(955abf6400389cf4f8e68ac194db83e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c901ecf5fc56d9ab68500642f66a947') in 0.0096587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GameMain/Materials/prop_asteroid_01_mat.mat
+  artifactKey: Guid(583ff7026dac91849b7c7b2468ba456b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameMain/Materials/prop_asteroid_01_mat.mat using Guid(583ff7026dac91849b7c7b2468ba456b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1e4f3984f7a2047a34fec9ca5a9983a') in 0.0138367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/Good_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(485ba623e5ebfb342bf7bf377531e642) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Good_PipelineAsset_ForwardRenderer.asset using Guid(485ba623e5ebfb342bf7bf377531e642) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39fc1c5705c6084bc409285a747eafa1') in 0.0193418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard UI Selector Elements.prefab
+  artifactKey: Guid(a5c98dfcec76e1847a0aa8d7c8a93459) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard UI Selector Elements.prefab using Guid(a5c98dfcec76e1847a0aa8d7c8a93459) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0b97d08cf4a2bd040ce50f33dd4b666') in 0.0342235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/WRPG/WRPG Template Standard Dialogue UI.prefab
+  artifactKey: Guid(c0c96af2230a56b45b77a95543e6ac50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/WRPG/WRPG Template Standard Dialogue UI.prefab using Guid(c0c96af2230a56b45b77a95543e6ac50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbd2e71128dc5533c3e9f1925b917b79') in 0.0322586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 182
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/SMS/SMS Dialogue UI.prefab
+  artifactKey: Guid(110a7148858b6f74c87ceac031c8eaba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/SMS/SMS Dialogue UI.prefab using Guid(110a7148858b6f74c87ceac031c8eaba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb319b48b483e633228031d060eb8859') in 0.0610477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/Simple_PipelineAsset.asset
+  artifactKey: Guid(ef600bb020f1f70419c370c8b2c2467a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Simple_PipelineAsset.asset using Guid(ef600bb020f1f70419c370c8b2c2467a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7de350eb84c70d4f6dee663438624060') in 0.0281641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroopRed.mat
+  artifactKey: Guid(03402bb0844a94e4f9ef09f124ae0c8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroopRed.mat using Guid(03402bb0844a94e4f9ef09f124ae0c8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '913c787a9f3f9d64ccc3c736bda88b5c') in 0.0116592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard Dialogue UI.prefab
+  artifactKey: Guid(5ba51781a19f8a843abeb2d304d0d26e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard Dialogue UI.prefab using Guid(5ba51781a19f8a843abeb2d304d0d26e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f560ba8acfdfb17a98ce0fdb86b5e1e1') in 0.0312217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Mobile/Mobile Standard Dialogue UI.prefab
+  artifactKey: Guid(ec86157352090354fba5ec5ba5f2e9aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Mobile/Mobile Standard Dialogue UI.prefab using Guid(ec86157352090354fba5ec5ba5f2e9aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1436b8d8423f89d95fcb8795319c119') in 0.0342636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 217
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.147800 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/InfiltratorPistol.mat
+  artifactKey: Guid(359754cc85114274b96e79e18b55f692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/InfiltratorPistol.mat using Guid(359754cc85114274b96e79e18b55f692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d92d807a803a05dbf8c14b4199b542') in 0.8180898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/wallTanker.mat
+  artifactKey: Guid(822331cfd0cd1924d8b742e2afa46eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/wallTanker.mat using Guid(822331cfd0cd1924d8b742e2afa46eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78a7fb65fd3a6e28a8bf9b28e1bd4ff7') in 0.1060507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GameMain/Materials/vehicle_playerShip_metal_mat.mat
+  artifactKey: Guid(8940b037a9b441c4cbd3d2b446838424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Materials/vehicle_playerShip_metal_mat.mat using Guid(8940b037a9b441c4cbd3d2b446838424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecc9846e08d4c641f9cbbb86d393d71b') in 0.4442897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/TerminalDiffuseMap.mat
+  artifactKey: Guid(da530438de201db409b41164a5192f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/TerminalDiffuseMap.mat using Guid(da530438de201db409b41164a5192f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '222856a6f7bcc0038201241b493a53d0') in 0.3261105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/AssaultGun.mat
+  artifactKey: Guid(5eff153ada2024d40ace67fb4049f1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/AssaultGun.mat using Guid(5eff153ada2024d40ace67fb4049f1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec70cee4ccb800c1df9767f5c51beb12') in 0.0150715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/ceilTypeA_Diff.mat
+  artifactKey: Guid(325cad0f311a3464ca2100385aab92c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/ceilTypeA_Diff.mat using Guid(325cad0f311a3464ca2100385aab92c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16baacdec017be5154eb422e983a7cb2') in 0.0108522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroopHelmet.mat
+  artifactKey: Guid(2b14441d002ea3940a79460708b788f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroopHelmet.mat using Guid(2b14441d002ea3940a79460708b788f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae6d5930810c8b90474ff4ff117d0499') in 0.0098341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
